@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+$fonts: 'Open Sans', sans-serif;
+$background: #FFF5ED;
+$a-color: #282828;
+$border: #00564D;
+
+body {
+    font-family: $fonts;
+}
+
+.main {
+    background-color: $background;
+    padding: 10px;
+    width: 850px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+input {
+    width: 400px;
+    height: 30px;
+    border: 2px solid $border;
+    padding: 5px;
+}
+
+label {
+    padding: 10px;
+    font-weight: bold;
+}
+
+.list {
+    margin: 20px auto;
+}
+
+.users {
+    display: inline-block;
+    width: 20vw;
+    text-align: center;
+    padding: 15px 5px;
+}
+
+.users a {
+    display: block;
+    text-decoration: none;
+    color: $a-color;
+    
+}
